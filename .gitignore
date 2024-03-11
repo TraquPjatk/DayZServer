@@ -11,7 +11,7 @@ logs
 whitelist*
 ban*
 *.lnk
-*.xml
+/*.xml
 *.gproj
 *.dll
 *.rar
