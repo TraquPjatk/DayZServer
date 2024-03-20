@@ -2,6 +2,48 @@
 <eventgroupdef>
 
 
+    <group name ="Roadblock_SeverogradQuarry">
+        <child type="vbldr_rubble_glass_prx" x="0.0" z="0.0" a="0.0"/>
+        <child type="StaticObj_Roadblock_Pillbox" spawncesondary="false" x="-4.02" z="15.4" a="272.8215"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="4.39" z="2.3" a="2.57491E-5"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="2.25" z="6.0" a="270.0001"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="-0.45" z="6.6" a="288.0002"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="0.79" z="6.3" y="1.2" a="286.2001"/>
+        <child type="Land_Wreck_hb01_aban1_green" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="-3.46" z="34.0" a="0.0"/>
+        <child type="StaticObj_Furniture_metalcrate_02" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="2.91" z="4.7" a="18.0"/>
+        <child type="StaticObj_Furniture_metalcrate_02" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="-3.98" z="19.5" a="171.0"/>
+        <child type="StaticObj_Wreck_T72_Turret" spawncesondary="false" x="13.25" z="-14.25" a="70.0917"/>
+        <child type="Land_Wreck_offroad02_aban1" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="1.57" z="29.6" a="264.6"/>
+        <child type="StaticObj_Garbage_Bin" spawncesondary="false" x="3.7" z="12.2" a="342.0"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="7.33" z="4.2" a="71.9998"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="8.36" z="-4.8" a="108.0"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="-6.21" z="7.6" a="89.9997"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="-5.62" z="24.0" a="93.5997"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="3.21" z="21.1" a="91.7997"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="-2.85" z="17.515" a="90.0"/>
+        <child type="StaticObj_Furniture_metalcrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="3.26" z="3.1" a="342.0"/>
+        <child type="StaticObj_Roadblock_CncBlocks_short" spawncesondary="false" x="4.62" z="-3.4" a="342.0"/>
+        <child type="StaticObj_Misc_Chair_Plastic" spawncesondary="false" x="3.56" z="14.0" a="171.0"/>
+        <child type="Land_Wreck_sed01_aban2_white" spawnsecondary="false" deloot="0" lootmax="1" lootmin="1" x="-4.86" z="-13.9" a="153.0"/>
+        <child type="StaticObj_Garbage_GroundSq_3m" spawncesondary="false" x="-0.43" z="9.7" a="0.0"/>
+        <child type="StaticObj_Misc_Chair_Camp1" spawncesondary="false" x="3.0" z="16.1" a="287.9999"/>
+        <child type="StaticObj_Misc_Chair_Camp1" spawncesondary="false" x="3.36" z="9.0" a="62.9999"/>
+        <child type="StaticObj_Misc_Chair_Camp2" spawncesondary="false" x="2.7" z="10" a="279.0"/>
+        <child type="Land_Roadblock_Table" spawnsecondary="false" deloot="1" lootmax="2" lootmin="1" x="-4.575" z="17.4" a="3.6"/>
+        <child type="Land_Roadblock_Table" spawnsecondary="false" deloot="1" lootmax="2" lootmin="1" x="3.23" z="10.5" a="100.8"/>
+        <child type="Land_Roadblock_Table" spawnsecondary="false" deloot="1" lootmax="2" lootmin="1" x="3.53" z="15.5" a="91.8"/>
+        <child type="Land_wreck_truck01_aban1_orange" spawncesondary="false" x="-0.13" z="-10.4" a="180.0"/>
+        <child type="StaticObj_Garbage_GroundSq_5m" spawncesondary="false" x="0.29" z="14.8" a="359.999956131"/>
+        <child type="StaticObj_Wreck_T72_Chassis" deloot="1" lootmax="6" lootmin="4" spawncesondary="false" x="8.14" z="-13.7" a="208.673"/>
+        <child type="StaticObj_Mil_HBarrier_4m" spawncesondary="false" x="-7.82" z="-8.5" a="91.8"/>
+        <child type="StaticObj_Mil_HBarrier_1m" spawncesondary="false" x="-7.96" z="-12.5" a="90.0"/>
+        <child type="StaticObj_Mil_HBarrier_1m" spawncesondary="false" x="-7.97" z="-13.8" a="90.0"/>
+        <child type="Land_Wreck_Uaz" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="-5.2" z="2.1" a="341.9999"/>
+        <child type="StaticObj_Misc_DragonTeeth_Single" spawncesondary="false" x="-6.02" z="37.6" a="359.999850274"/>
+        <child type="StaticObj_Misc_DragonTeeth_Single" spawncesondary="false" x="-5.71" z="39.8" a="314.9996"/>
+        <child type="StaticObj_Misc_DragonTeeth_Single" spawncesondary="false" x="-6.45" z="42.5" a="359.999572755"/>
+    </group>
+
     <group name = "Roadblock_SverginoDam">
         <child type="bldr_prop_FireExtinguisher" x="0.0" z="0.0" a="0.0"/>
         <child type="StaticObj_Wreck_BMP1" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="-1.3" z="-5.8" a="339.6269"/>
