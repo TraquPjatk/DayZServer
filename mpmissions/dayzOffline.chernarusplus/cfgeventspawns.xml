@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+
+	<event name="StaticRoadblock">
+		<zone smin="5" smax="5" dmin="0" dmax="0" r="30" />
+	<!-- --> 	<pos x="4930.56" z="7845.97" a="0" y="333.794" group="Roadblock_VMC"/>
+		<pos x="12848.1" z="9156.29" a="-165.6" group="Roadblock_Berezino"/>
+		<pos x="10052" y="64.3445" z="14009.7" a="0" group="Roadblock_SverginoDam"/>
+	</event>
+	
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
 		<pos x="12302.375001" z="9051.289062" a="60.399284" />

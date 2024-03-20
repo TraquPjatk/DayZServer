@@ -15,6 +15,131 @@
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 		</defaults>
+		
+
+		<!--	CUSTOM CLASSES ARE BELOW OF THIS COMMENT !!!	-->
+		<group name="StaticObj_Furniture_metalcrate_02" lootmax="1">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="1">
+				<point pos="0 0.42 0" range="1" height="1" /> 
+			</container>
+		</group><group name="StaticObj_Furniture_metalcrate" lootmax="1">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="1">
+				<point pos="0 0.42 0" range="1" height="1" /> 
+			</container>
+		</group>
+		<group name="StaticObj_Wreck_BMP1" lootmax="15">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="3">
+					<category name="weapons" />
+					<tag name="floor" />
+					<tag name="shelves" />
+					<tag name="ground" />
+					<point pos="-4.089112 0.221592 0.940429" range="0.375000" height="0.937447" />
+					<point pos="1.437012 0.445089 0.324707" range="0.512500" height="1.281250" />
+					<point pos="0.605713 -1.171818 -0.604980" range="0.559326" height="1.398315" flags="32" />
+					<point pos="0.075929 -1.166462 3.297363" range="0.821783" height="2.000000" flags="32" />
+					<point pos="-2.697021 -1.159124 -1.273926" range="1.043945" height="2.000000" flags="32" />
+					<point pos="0.888672 0.484102 1.568848" range="0.443750" height="1.109372" />
+			</container>
+	</group>
+	<group name="StaticObj_Wreck_BMP2" lootmax="15">
+		<usage name="Military" />
+		<container name="lootFloor" lootmax="3">
+				<category name="weapons" />
+				<tag name="floor" />
+				<tag name="shelves" />
+				<tag name="ground" />
+				<point pos="0.338868 -0.832497 2.627441" range="1.199951" height="2.000000" flags="32" />
+				<point pos="4.002685 -0.832497 -0.490723" range="0.450684" height="1.126709" flags="32" />
+				<point pos="-2.391357 0.255235 -0.126465" range="0.237500" height="0.593750" />
+				<point pos="-0.084961 -0.828744 -2.932617" range="1.141113" height="2.000000" flags="32" />
+				<point pos="1.840576 0.520056 -0.486817" range="0.385254" height="0.963135" />
+				<point pos="0.304932 0.795363 0.032227" range="0.251953" height="0.252773" />
+		</container>
+	</group>
+
+		<group name="StaticObj_ammoboxes_single" lootmax="1">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="1">
+				<point pos="0 0.42 0" range="1" height="1" /> 
+			</container>
+		</group>
+		<group name="Land_Wreck_Uaz" lootmax="15">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="3">
+					<category name="containers" />
+					<category name="clothes" />
+					<category name="weapons" />
+					<tag name="floor" />
+					<tag name="shelves" />
+					<tag name="ground" />
+					<point pos="1.432111 -0.745880 0.955840" range="0.478972" height="1.197430" flags="32" />
+					<point pos="1.137940 -0.367249 -0.156679" range="0.478125" height="0.710724" />
+					<point pos="-1.077829 0.211060 -0.191129" range="0.237500" height="0.593750" />
+					<point pos="-1.872268 -0.950928 -1.130841" range="1.199951" height="0.417633" flags="32" />
+					<point pos="0.982690 -0.848969 -1.428895" range="0.891068" height="0.232727" flags="32" />
+					<point pos="-0.705573 -0.841156 0.946659" range="0.474225" height="1.185562" flags="32" />
+			</container>
+	</group>
+		<group name="StaticObj_Wreck_BRDM" lootmax="15">
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="3">
+					<category name="containers" />
+					<category name="weapons" />
+					<tag name="floor" />
+					<tag name="shelves" />
+					<tag name="ground" />
+					<point pos="3.653809 -0.576966 0.805175" range="1.199951" height="2.000000" flags="32" />
+					<point pos="0.614991 -0.540920 2.402832" range="0.981934" height="2.000000" flags="32" />
+					<point pos="-0.840088 0.868790 0.040039" range="0.134375" height="0.335938" />
+					<point pos="-2.597900 0.116872 -0.510743" range="0.168750" height="0.421875" />
+					<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
+			</container>
+	</group>
+
+
+		<group name="Land_Misc_Table_Large_Spawn" lootmax="1">
+			<usage name="Hunting" />
+			<container name="lootFloor" lootmax="1">
+					<category name="containers" />
+					<category name="clothes" />
+					<category name="weapons" />
+					<point pos="0 0.42 0" range="0.2" height="0.2" />
+			</container>
+		</group>
+		<group name="Land_Roadblock_Table" lootmax="3">
+			<usage name="Military" />
+			<container name="loot" lootmax="3">
+					<category name="tools" />
+					<category name="clothes" />
+					<category name="weapons" />
+					<tag name="shelves" />
+					<point pos="0.298584 0.400101 -0.024414" range="0.100000" height="0.250000" />
+					<point pos="0.283325 0.400101 0.902344" range="0.100000" height="0.250000" />
+					<point pos="-0.281982 0.400101 -0.034668" range="0.100000" height="0.250000" />
+					<point pos="-0.274536 0.400101 0.846191" range="0.134265" height="0.335938" />
+					<point pos="0.007813 0.400101 0.422363" range="0.375000" height="0.937500" />
+					<point pos="-0.022095 0.400101 -0.526611" range="0.375000" height="0.937500" />
+			</container>
+	</group>
+	<group name="Land_Roadblock_WoodenCrate" lootmax="1">
+			<usage name="Military" />
+			<usage name="Police" />
+			<usage name="Medic" />
+			<container name="loot" lootmax="1">
+					<category name="tools" />
+					<category name="clothes" />
+					<category name="weapons" />
+					<tag name="shelves" />
+					<point pos="-0.511108 0.332373 -0.242920" range="0.134375" height="0.335938" />
+					<point pos="0.288574 0.332373 0.025391" range="0.375000" height="0.937500" />
+			</container>
+	</group>
+	
+	<!--	CUSTOM CLASSES ARE ABOVE FROM THIS COMMENT !!!	-->
+
 		<group name="Land_Shed_M1" lootmax="2">
 				<usage name="Industrial" />
 				<usage name="Farm" />

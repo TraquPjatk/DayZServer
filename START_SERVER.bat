@@ -18,7 +18,7 @@ echo (%time%) %serverName% started.
 ::Launch parameters (edit end: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=)
 
 ::start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% "-profiles=config" "-mod=@CF;@Community-Online-Tools;@BetterClutterCutters;@BuilderItems;@Dabs Framework;@DayZ Editor Loader;@SPBuilding;@VanillaRoadPartsPack;@VPPAdminTools" -cpuCount=%serverCPU% -dologs -adminlog -netlog -freezecheck
-start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% "-profiles=config" "-mod=@CF;@BetterClutterCutters;@BuilderItems;@SPBuilding;@VanillaRoadPartsPack;@VPPAdminTools" -cpuCount=%serverCPU% -dologs -adminlog -netlog -freezecheck
+start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% "-profiles=config" "-mod=@CF;@BetterClutterCutters;@BuilderItems;@SPBuilding;@VanillaRoadPartsPack;@VPPAdminTools" -cpuCount=%serverCPU% -doLogs -adminLog -netLog -freezeCheck
 
 ::Time in seconds before kill server process (14400 = 4 hours)
 timeout 14390

@@ -1,0 +1,13 @@
+<prototype>
+<group name="Land_Wreck_Uaz"></group>
+<group name="StaticObj_Wreck_BRDM"></group>
+<group name="Land_Misc_Table_Large_Spawn"></group>
+<group name="Land_Roadblock_Table"></group>
+<group name="Land_Roadblock_WoodenCrate"></group>
+<group name="StaticObj_ammoboxes_single"></group>
+<group name="StaticObj_Wreck_BMP1"></group>
+<group name="StaticObj_Wreck_BMP2"></group>
+<group name="StaticObj_Furniture_metalcrate_02"></group>
+<group name="StaticObj_Furniture_metalcrate"></group>
+
+</prototype>

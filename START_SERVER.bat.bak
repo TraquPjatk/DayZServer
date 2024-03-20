@@ -1,0 +1,30 @@
+@echo off
+:start
+::Nazwa serwera (Tylko dla pliku wsadowego)
+set serverName=THE SERVER
+::Lokalizacja plików serwera
+set serverLocation="F:\Steam\steamapps\common\DayZServer"
+::Port serwera
+set serverPort=2302
+::Konfiguracja serwera
+set serverConfig=serverDZ.cfg
+::Liczba logicznych rdzeni CPU do użycia (Równa lub mniejsza niż dostępne)
+set serverCPU=2
+::Ustawienie tytułu dla terminala (NIE edytuj)
+title %serverName% batch
+::Lokalizacja DayZServer (NIE edytuj)
+cd "%serverLocation%"
+echo (%time%) %serverName% started.
+::Parametry uruchomieniowe (edytuj końcówkę: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=)
+
+::Usuwanie katalogu storage
+RD /s /q "storage" > nul 2>&1
+
+start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% "-profiles=config" "-mod=@CF;@BetterClutterCutters;@BuilderItems;@SPBuilding;@VanillaRoadPartsPack;@VPPAdminTools" -cpuCount=%serverCPU% -doLogs -adminLog -netLog -freezeCheck
+
+::Czas w sekundach przed zabicie procesu serwera (14400 = 4 godziny)
+timeout 14390
+taskkill /im DayZServer_x64.exe /F
+::Czas w sekundach oczekiwania przed..
+::Powróceniem na górę i powtórzeniem całego cyklu ponownie
+goto start
