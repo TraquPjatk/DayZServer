@@ -2,6 +2,61 @@
 <eventgroupdef>
 
 
+    <group name="Roadblock_GrishinoNorth">
+        <child type="StaticObj_Rubble_Glass" x="0.0" z="0.0" a="0.0"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="5.45" z="0.8" a="45.0"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="7.66" z="3.7" a="27.0"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawncesondary="false" x="7.32" z="14.7" a="122.4"/>
+        <child type="StaticObj_Wreck_BMP2" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="13.93" z="-2.8" a="63.0"/>
+        <child type="StaticObj_Furniture_metalcrate_02" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="5.2" z="-0.7" a="54.0"/>
+        <child type="StaticObj_Furniture_metalcrate_02" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="27.59" z="33.7" a="54.0002"/>
+        <child type="bldr_sign_roadblock_stop" spawncesondary="false" x="1.22" z="-1.3" y="0.56" a="122.398"/>
+        <child type="bldr_sign_roadblock_stop" spawncesondary="false" x="29.38" z="50.3" y="-1.83" a="280.7982"/>
+        <child type="bldr_sign_roadblock_stop" spawncesondary="false" x="24.72" z="51.1" y="-1.87" a="281.9443"/>
+        <child type="StaticObj_Roadblock_Wood_Long" spawncesondary="false" x="-4.66" z="-0.3" a="18.0002"/>
+        <child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="-0.69" z="-6.9" a="26.9999"/>
+        <child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="22.69" z="44.6" a="53.9997"/>
+        <child type="StaticObj_Dead_pile3" spawncesondary="false" x="15.01" z="16.5" a="341.9999"/>
+        <child type="StaticObj_Dead_pile3" spawncesondary="false" x="24.55" z="25.6" a="342.0"/>
+        <child type="StaticObj_Dead_pile4" spawncesondary="false" x="14.74" z="15.2" a="252.0"/>
+        <child type="StaticObj_Dead_MassGrave_15m" spawncesondary="false" x="34.81" z="-0.7" y="-3.79" a="269.4893"/>
+        <child type="StaticObj_Misc_Barbedwire" spawncesondary="false" x="34.2" z="47.8" a="27.0"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="6.8" z="4.1" a="28.7999"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="4.84" z="1.5" a="46.7997"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="8.74" z="3.9" a="28.7992"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="26.21" z="31.7" a="28.7999"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="35.44" z="-4.5" y="-3.62" a="208.8"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="34.07" z="3.9" y="-3.62" a="289.7999"/>
+        <child type="StaticObj_Furniture_metalcrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="8.07" z="2.4" a="18.0"/>
+        <child type="StaticObj_Furniture_metalcrate" spawnsecondary="false" deloot="1" lootmax="1" lootmin="1" x="2.13" z="-0.3" a="122.848"/>
+        <child type="StaticObj_Wreck_Decal_Small2" spawncesondary="false" x="-1.12" z="-6.9" a="12.5999"/>
+        <child type="vbldr_sign_enochmil_warning1_pl" spawncesondary="false" x="25.17" z="50.6" a="210.033"/>
+        <child type="StaticObj_Roadblock_CncBlocks_short" spawncesondary="false" x="2.03" z="-1.3" a="306.0"/>
+        <child type="StaticObj_Roadblock_CncBlocks_short" spawncesondary="false" x="-1.19" z="1.4" a="315.0"/>
+        <child type="StaticObj_Roadblock_CncBlocks_short" spawncesondary="false" x="29.97" z="49.7" a="282.5998"/>
+        <child type="StaticObj_Roadblock_CncBlocks_short" spawncesondary="false" x="23.92" z="50.8" a="282.5998"/>
+        <child type="StaticObj_Wreck_BRDM" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="12.47" z="37.8" a="27.0002"/>
+        <child type="StaticObj_Dead_pile1" spawncesondary="false" x="14.6" z="17.6" a="342.0001"/>
+        <child type="StaticObj_Dead_pile1" spawncesondary="false" x="24.04" z="24.1" a="342.0"/>
+        <child type="StaticObj_Dead_pile1" spawncesondary="false" x="25.68" z="23.9" a="324.0"/>
+        <child type="StaticObj_Rubble_DirtPile_Large" spawncesondary="false" x="16.44" z="16.1" y="-0.01" a="214.201"/>
+        <child type="StaticObj_Dead_pile2" spawncesondary="false" x="13.98" z="16.7" a="18.0002"/>
+        <child type="StaticObj_Dead_pile2" spawncesondary="false" x="5.94" z="-2.8" a="9.00016"/>
+        <child type="StaticObj_Misc_Chair_Camp1" spawncesondary="false" x="7.68" z="16.7" a="288.0001"/>
+        <child type="StaticObj_Misc_Chair_Camp1" spawncesondary="false" x="-0.94" z="2.7" a="261.0002"/>
+        <child type="StaticObj_Misc_Chair_Camp2" spawncesondary="false" x="-0.18" z="1.5" a="189.0"/>
+        <child type="StaticObj_Misc_Chair_Camp2" spawncesondary="false" x="6.91" z="0.6" a="135.0"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawncesondary="false" x="6.44" z="16.5" a="34.2002"/>
+        <child type="Land_Roadblock_Table" spawnsecondary="false" deloot="1" lootmax="2" lootmin="1" x="6.33" z="0.5" a="315.0"/>
+        <child type="Land_Roadblock_Table" spawnsecondary="false" deloot="1" lootmax="2" lootmin="1" x="7.62" z="15.6" a="214.201"/>
+        <child type="StaticObj_Roadblock_Wood_Small" spawncesondary="false" x="-0.96" z="-0.8" a="18.0001"/>
+        <child type="StaticObj_Mil_HBarrier_6m" spawncesondary="false" x="0.46" z="9.4" a="300.6"/>
+        <child type="StaticObj_Mil_HBarrier_6m" spawncesondary="false" x="12.44" z="28.8" a="309.5999"/>
+        <child type="StaticObj_Mil_HBarrier_4m" spawncesondary="false" x="7.75" z="21.6" a="300.6"/>
+        <child type="Land_Wreck_Uaz" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="15.48" z="27.2" a="36.0"/>
+        <child type="Land_Wreck_Uaz" spawnsecondary="false" deloot="1" lootmax="4" lootmin="2" x="10.56" z="23.4" a="153.0"/>
+    </group>
+
     <group name ="Roadblock_SeverogradQuarry">
         <child type="vbldr_rubble_glass_prx" x="0.0" z="0.0" a="0.0"/>
         <child type="StaticObj_Roadblock_Pillbox" spawncesondary="false" x="-4.02" z="15.4" a="272.8215"/>

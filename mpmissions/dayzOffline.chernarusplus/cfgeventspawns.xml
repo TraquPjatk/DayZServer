@@ -3,10 +3,11 @@
 
 	<event name="StaticRoadblock">
 		<zone smin="5" smax="5" dmin="0" dmax="0" r="30" />
-	<!-- --> 	<pos x="4930.56" z="7845.97" a="0" y="333.794" group="Roadblock_VMC"/>
+<!-- --><pos x="4930.56" z="7845.97" a="0" y="333.794" group="Roadblock_VMC"/>
 		<pos x="12848.1" z="9156.29" a="-165.6" group="Roadblock_Berezino"/>
 		<pos x="10052" y="64.3445" z="14009.7" a="0" group="Roadblock_SverginoDam"/>
 		<pos x="8467.12" y="144.493" z="13246.9" a="0" group="Roadblock_SeverogradQuarry"/>
+		<pos x="6115.74" y="258.775" z="10603.2" a="0" group="Roadblock_GrishinoNorth"/>
 	</event>
 	
 	<event name="VehicleCivilianSedan">

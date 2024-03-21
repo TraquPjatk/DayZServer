@@ -58,13 +58,17 @@
 	<group name="StaticObj_Furniture_metalcrate_02" lootmax="1">
 			<usage name="Military" />
 			<category name="weapons" />
-			<point pos="0 0.42 0" range="1" height="1" /> 
+			<container name="lootFloor" lootmax="1">
+				<point pos="0 0.42 0" range="0.2" height="0.2" /> 
+			</container>
 	</group>
 		
 	<group name="StaticObj_Furniture_metalcrate" lootmax="1">
 			<usage name="Military" />
 			<category name="weapons" />
-			<point pos="0 0.42 0" range="1" height="1" /> 
+			<container name="lootFloor" lootmax="1">
+				<point pos="0 0.42 0" range="0.2" height="0.2" /> 
+			</container>
 	</group>
 
 	<group name="StaticObj_Wreck_BMP1" lootmax="15">
